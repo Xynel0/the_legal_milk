@@ -52,6 +52,8 @@ Atualmente estamos desenvolvendo a estrutura inicial do site. Os conteúdos ser�
 
 Queremos construir uma biblioteca de conhecimento organizada, colaborativa e duradoura, onde qualquer estudante possa encontrar rapidamente o conteúdo de que precisa para aprender Ciência da Computação.
 
+[![Contributors](https://contrib.rocks/image?repo=Xynel0/The-Legal-Milk)](https://github.com/Xynel0/The-Legal-Milk/graphs/contributors)
+
 Se o projeto puder ajudar alguém a compreender um conceito, resolver um exercício ou despertar interesse pela computação, ele já terá cumprido seu propósito.
 
 
