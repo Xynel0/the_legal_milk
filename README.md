@@ -54,5 +54,12 @@ Queremos construir uma biblioteca de conhecimento organizada, colaborativa e dur
 
 Se o projeto puder ajudar alguém a compreender um conceito, resolver um exercício ou despertar interesse pela computação, ele já terá cumprido seu propósito.
 
+# TESTE
+
+## Contributors
+
+<a href="https://github.com/Xynel0/the-legal-milk/contributors">
+  <img src="https://contrib.rocks/image?repo=Xynel0/the-legal-milk" />
+</a>
 
 > nota: qualquer semelhança com projetos, fictícios ou não, é mera coincidência.
