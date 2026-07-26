@@ -53,5 +53,4 @@ Atualmente estamos desenvolvendo a estrutura inicial do site. Os conteúdos ser�
 Queremos construir uma biblioteca de conhecimento organizada, colaborativa e duradoura, onde qualquer estudante possa encontrar rapidamente o conteúdo de que precisa para aprender Ciência da Computação.
 Se o projeto puder ajudar alguém a compreender um conceito, resolver um exercício ou despertar interesse pela computação, ele já terá cumprido seu propósito.
 
-
 > nota: qualquer semelhança com projetos, fictícios ou não, é mera coincidência.
