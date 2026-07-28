@@ -1,0 +1,348 @@
+name: Extrair divs
+
+on:
+  push:
+
+jobs:
+  detectar_mudancas_feitas:
+    runs-on: ubuntu-latest
+    outputs:
+      #semestre 1
+      calculo_diferencial_e_integral_I: ${{ steps.filtro.outputs.calculo_diferencial_e_integral_I }}
+      matematica_discreta: ${{ steps.filtro.outputs.matematica_discreta }}
+      fundamentos_de_programacao: ${{ steps.filtro.outputs.fundamentos_de_programacao }}
+      circuitos_digitais: ${{ steps.filtro.outputs.circuitos_digitais }}
+      #semestre 2
+      calculo_diferencial_e_integral_II: ${{ steps.filtro.outputs.calculo_diferencial_e_integral_II }}
+      algebra_linear: ${{ steps.filtro.outputs.algebra_linear }}
+      estruturas_de_dados: ${{ steps.filtro.outputs.estruturas_de_dados }}
+      programacao: ${{ steps.filtro.outputs.programacao }}
+      transmissao_de_dados: ${{ steps.filtro.outputs.transmissao_de_dados }}
+      #semestre 3
+      logica_para_ciencia_da_computacao: ${{ steps.filtro.outputs.logica_para_ciencia_da_computacao }}
+      introducao_a_probabilidade_e_a_estatistica: ${{ steps.filtro.outputs.introducao_a_probabilidade_e_a_estatistica }}
+      algoritmos_em_grafos: ${{ steps.filtro.outputs.algoritmos_em_grafos }}
+      tecnicas_de_programacao_I: ${{ steps.filtro.outputs.tecnicas_de_programacao_I }}
+      arquitetura_de_computadores: ${{ steps.filtro.outputs.arquitetura_de_computadores }}
+      #semestre 4
+      construcao_e_analise_de_algoritmos: ${{ steps.filtro.outputs.construcao_e_analise_de_algoritmos }}
+      metodos_numericos_I: ${{ steps.filtro.outputs.metodos_numericos_I }}
+      computacao_grafica_I: ${{ steps.filtro.outputs.computacao_grafica_I }}
+      fundamentos_de_bancos_de_dados: ${{ steps.filtro.outputs.fundamentos_de_bancos_de_dados }}
+      linguagens_de_programacao_I: ${{ steps.filtro.outputs.linguagens_de_programacao_I }}
+      #semestre 5
+      engenharia_de_software_I: ${{ steps.filtro.outputs.engenharia_de_software_I }}
+      metodos_numericos_II: ${{ steps.filtro.outputs.metodos_numericos_II }}
+      redes_de_computadores_I: ${{ steps.filtro.outputs.redes_de_computadores_I }}
+      sistemas_de_gerenciamento_de_bancos_de_dados: ${{ steps.filtro.outputs.sistemas_de_gerenciamento_de_bancos_de_dados }}
+      #semestre 6
+      inteligencia_artificial: ${{ steps.filtro.outputs.inteligencia_artificial }}
+      sistemas_operacionais: ${{ steps.filtro.outputs.sistemas_operacionais }}
+      analise_e_projeto_de_sistemas_I: ${{ steps.filtro.outputs.analise_e_projeto_de_sistemas_I }}
+      automatos_e_linguagens_formais: ${{ steps.filtro.outputs.automatos_e_linguagens_formais }}
+      #semestre 7
+      construcao_de_compiladores: ${{ steps.filtro.outputs.construcao_de_compiladores }}
+      teoria_da_computacao: ${{ steps.filtro.outputs.teoria_da_computacao }}
+      informatica_e_sociedade: ${{ steps.filtro.outputs.informatica_e_sociedade }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - id: filtro
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            calculo_diferencial_e_integral_I:
+              - 'semestre_1/calculo_diferencial_e_integral_I/**'
+              - '!semestre_1/calculo_diferencial_e_integral_I/arquivos_uteis/**'
+            matematica_discreta:
+              - 'semestre_1/matematica_discreta/**'
+              - '!semestre_1/matematica_discreta/arquivos_uteis/**'
+            fundamentos_de_programacao:
+              - 'semestre_1/fundamentos_de_programacao/**'
+              - '!semestre_1/fundamentos_de_programacao/arquivos_uteis/**'
+            circuitos_digitais:
+              - 'semestre_1/circuitos_digitais/**'
+              - '!semestre_1/circuitos_digitais/arquivos_uteis/**'
+            calculo_diferencial_e_integral_II:
+              - 'semestre_2/calculo_diferencial_e_integral_II/**'
+              - '!semestre_2/calculo_diferencial_e_integral_II/arquivos_uteis/**'
+            algebra_linear:
+              - 'semestre_2/algebra_linear/**'
+              - '!semestre_2/algebra_linear/arquivos_uteis/**'
+            estruturas_de_dados:
+              - 'semestre_2/estruturas_de_dados/**'
+              - '!semestre_2/estruturas_de_dados/arquivos_uteis/**'
+            programacao:
+              - 'semestre_2/programacao/**'
+              - '!semestre_2/programacao/arquivos_uteis/**'
+            transmissao_de_dados:
+              - 'semestre_2/transmissao_de_dados/**'
+              - '!semestre_2/transmissao_de_dados/arquivos_uteis/**'
+            logica_para_ciencia_da_computacao:
+              - 'semestre_3/logica_para_ciencia_da_computacao/**'
+              - '!semestre_3/logica_para_ciencia_da_computacao/arquivos_uteis/**'
+            introducao_a_probabilidade_e_a_estatistica:
+              - 'semestre_3/introducao_a_probabilidade_e_a_estatistica/**'
+              - '!semestre_3/introducao_a_probabilidade_e_a_estatistica/arquivos_uteis/**'
+            algoritmos_em_grafos:
+              - 'semestre_3/algoritmos_em_grafos/**'
+              - '!semestre_3/algoritmos_em_grafos/arquivos_uteis/**'
+            tecnicas_de_programacao_I:
+              - 'semestre_3/tecnicas_de_programacao_I/**'
+              - '!semestre_3/tecnicas_de_programacao_I/arquivos_uteis/**'
+            arquitetura_de_computadores:
+              - 'semestre_3/arquitetura_de_computadores/**'
+              - '!semestre_3/arquitetura_de_computadores/arquivos_uteis/**'
+            construcao_e_analise_de_algoritmos:
+              - 'semestre_4/construcao_e_analise_de_algoritmos/**'
+              - '!semestre_4/construcao_e_analise_de_algoritmos/arquivos_uteis/**'
+            metodos_numericos_I:
+              - 'semestre_4/metodos_numericos_I/**'
+              - '!semestre_4/metodos_numericos_I/arquivos_uteis/**'
+            computacao_grafica_I:
+              - 'semestre_4/computacao_grafica_I/**'
+              - '!semestre_4/computacao_grafica_I/arquivos_uteis/**'
+            fundamentos_de_bancos_de_dados:
+              - 'semestre_4/fundamentos_de_bancos_de_dados/**'
+              - '!semestre_4/fundamentos_de_bancos_de_dados/arquivos_uteis/**'
+            linguagens_de_programacao_I:
+              - 'semestre_4/linguagens_de_programacao_I/**'
+              - '!semestre_4/linguagens_de_programacao_I/arquivos_uteis/**'
+            engenharia_de_software_I:
+              - 'semestre_5/engenharia_de_software_I/**'
+              - '!semestre_5/engenharia_de_software_I/arquivos_uteis/**'
+            metodos_numericos_II:
+              - 'semestre_5/metodos_numericos_II/**'
+              - '!semestre_5/metodos_numericos_II/arquivos_uteis/**'
+            redes_de_computadores_I:
+              - 'semestre_5/redes_de_computadores_I/**'
+              - '!semestre_5/redes_de_computadores_I/arquivos_uteis/**'
+            sistemas_de_gerenciamento_de_bancos_de_dados:
+              - 'semestre_5/sistemas_de_gerenciamento_de_bancos_de_dados/**'
+              - '!semestre_5/sistemas_de_gerenciamento_de_bancos_de_dados/arquivos_uteis/**'
+            inteligencia_artificial:
+              - 'semestre_6/inteligencia_artificial/**'
+              - '!semestre_6/inteligencia_artificial/arquivos_uteis/**'
+            sistemas_operacionais:
+              - 'semestre_6/sistemas_operacionais/**'
+              - '!semestre_6/sistemas_operacionais/arquivos_uteis/**'
+            analise_e_projeto_de_sistemas_I:
+              - 'semestre_6/analise_e_projeto_de_sistemas_I/**'
+              - '!semestre_6/analise_e_projeto_de_sistemas_I/arquivos_uteis/**'
+            automatos_e_linguagens_formais:
+              - 'semestre_6/automatos_e_linguagens_formais/**'
+              - '!semestre_6/automatos_e_linguagens_formais/arquivos_uteis/**'
+            construcao_de_compiladores:
+              - 'semestre_7/construcao_de_compiladores/**'
+              - '!semestre_7/construcao_de_compiladores/arquivos_uteis/**'
+            teoria_da_computacao:
+              - 'semestre_7/teoria_da_computacao/**'
+              - '!semestre_7/teoria_da_computacao/arquivos_uteis/**'
+            informatica_e_sociedade:
+              - 'semestre_7/informatica_e_sociedade/**'
+              - '!semestre_7/informatica_e_sociedade/arquivos_uteis/**'
+  
+  extrair_div_por_class:
+    needs: detectar_mudancas_feitas
+    runs-on: ubuntu-latest
+    if: |
+      needs.detectar_mudancas_feitas.outputs.calculo_diferencial_e_integral_I == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.matematica_discreta == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.fundamentos_de_programacao == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.circuitos_digitais == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.calculo_diferencial_e_integral_II == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.algebra_linear == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.estruturas_de_dados == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.programacao == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.transmissao_de_dados == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.logica_para_ciencia_da_computacao == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.introducao_a_probabilidade_e_a_estatistica == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.algoritmos_em_grafos == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.tecnicas_de_programacao_I == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.arquitetura_de_computadores == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.construcao_e_analise_de_algoritmos == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.metodos_numericos_I == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.computacao_grafica_I == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.fundamentos_de_bancos_de_dados == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.linguagens_de_programacao_I == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.engenharia_de_software_I == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.metodos_numericos_II == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.redes_de_computadores_I == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.sistemas_de_gerenciamento_de_bancos_de_dados == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.inteligencia_artificial == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.sistemas_operacionais == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.analise_e_projeto_de_sistemas_I == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.automatos_e_linguagens_formais == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.construcao_de_compiladores == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.teoria_da_computacao == 'true' ||
+      needs.detectar_mudancas_feitas.outputs.informatica_e_sociedade == 'true'
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Instalar dependências
+        run: pip install beautifulsoup4
+
+      - name: Calculo Diferencial e Integral I
+        if: needs.detectar_mudancas_feitas.outputs.calculo_diferencial_e_integral_I == 'true'
+        run: python .github/scripts/extrair_definicoes_calculo_diferencial_e_integral_I.py
+        continue-on-error: true
+        
+      - name: Matematica Discreta
+        if: needs.detectar_mudancas_feitas.outputs.matematica_discreta == 'true'
+        run: python .github/scripts/extrair_definicoes_matematica_discreta.py
+        continue-on-error: true
+ 
+      - name: Fundamentos de Programacao
+        if: needs.detectar_mudancas_feitas.outputs.fundamentos_de_programacao == 'true'
+        run: python .github/scripts/extrair_definicoes_fundamentos_de_programacao.py
+        continue-on-error: true
+ 
+      - name: Circuitos Digitais
+        if: needs.detectar_mudancas_feitas.outputs.circuitos_digitais == 'true'
+        run: python .github/scripts/extrair_definicoes_circuitos_digitais.py
+        continue-on-error: true
+ 
+      - name: Calculo Diferencial e Integral II
+        if: needs.detectar_mudancas_feitas.outputs.calculo_diferencial_e_integral_II == 'true'
+        run: python .github/scripts/extrair_definicoes_calculo_diferencial_e_integral_II.py
+        continue-on-error: true
+ 
+      - name: Algebra Linear
+        if: needs.detectar_mudancas_feitas.outputs.algebra_linear == 'true'
+        run: python .github/scripts/extrair_definicoes_algebra_linear.py
+        continue-on-error: true
+ 
+      - name: Estruturas de Dados
+        if: needs.detectar_mudancas_feitas.outputs.estruturas_de_dados == 'true'
+        run: python .github/scripts/extrair_definicoes_estruturas_de_dados.py
+        continue-on-error: true
+ 
+      - name: Programacao
+        if: needs.detectar_mudancas_feitas.outputs.programacao == 'true'
+        run: python .github/scripts/extrair_definicoes_programacao.py
+        continue-on-error: true
+ 
+      - name: Transmissao de Dados
+        if: needs.detectar_mudancas_feitas.outputs.transmissao_de_dados == 'true'
+        run: python .github/scripts/extrair_definicoes_transmissao_de_dados.py
+        continue-on-error: true
+ 
+      - name: Logica para Ciencia da Computacao
+        if: needs.detectar_mudancas_feitas.outputs.logica_para_ciencia_da_computacao == 'true'
+        run: python .github/scripts/extrair_definicoes_logica_para_ciencia_da_computacao.py
+        continue-on-error: true
+ 
+      - name: Introducao a Probabilidade e a Estatistica
+        if: needs.detectar_mudancas_feitas.outputs.introducao_a_probabilidade_e_a_estatistica == 'true'
+        run: python .github/scripts/extrair_definicoes_introducao_a_probabilidade_e_a_estatistica.py
+        continue-on-error: true
+ 
+      - name: Algoritmos em Grafos
+        if: needs.detectar_mudancas_feitas.outputs.algoritmos_em_grafos == 'true'
+        run: python .github/scripts/extrair_definicoes_algoritmos_em_grafos.py
+        continue-on-error: true
+ 
+      - name: Tecnicas de Programacao I
+        if: needs.detectar_mudancas_feitas.outputs.tecnicas_de_programacao_I == 'true'
+        run: python .github/scripts/extrair_definicoes_tecnicas_de_programacao_I.py
+        continue-on-error: true
+ 
+      - name: Arquitetura de Computadores
+        if: needs.detectar_mudancas_feitas.outputs.arquitetura_de_computadores == 'true'
+        run: python .github/scripts/extrair_definicoes_arquitetura_de_computadores.py
+        continue-on-error: true
+ 
+      - name: Construcao e Analise de Algoritmos
+        if: needs.detectar_mudancas_feitas.outputs.construcao_e_analise_de_algoritmos == 'true'
+        run: python .github/scripts/extrair_definicoes_construcao_e_analise_de_algoritmos.py
+        continue-on-error: true
+ 
+      - name: Metodos Numericos I
+        if: needs.detectar_mudancas_feitas.outputs.metodos_numericos_I == 'true'
+        run: python .github/scripts/extrair_definicoes_metodos_numericos_I.py
+        continue-on-error: true
+ 
+      - name: Computacao Grafica I
+        if: needs.detectar_mudancas_feitas.outputs.computacao_grafica_I == 'true'
+        run: python .github/scripts/extrair_definicoes_computacao_grafica_I.py
+        continue-on-error: true
+ 
+      - name: Fundamentos de Bancos de Dados
+        if: needs.detectar_mudancas_feitas.outputs.fundamentos_de_bancos_de_dados == 'true'
+        run: python .github/scripts/extrair_definicoes_fundamentos_de_bancos_de_dados.py
+        continue-on-error: true
+ 
+      - name: Linguagens de Programacao I
+        if: needs.detectar_mudancas_feitas.outputs.linguagens_de_programacao_I == 'true'
+        run: python .github/scripts/extrair_definicoes_linguagens_de_programacao_I.py
+        continue-on-error: true
+ 
+      - name: Engenharia de Software I
+        if: needs.detectar_mudancas_feitas.outputs.engenharia_de_software_I == 'true'
+        run: python .github/scripts/extrair_definicoes_engenharia_de_software_I.py
+        continue-on-error: true
+ 
+      - name: Metodos Numericos II
+        if: needs.detectar_mudancas_feitas.outputs.metodos_numericos_II == 'true'
+        run: python .github/scripts/extrair_definicoes_metodos_numericos_II.py
+        continue-on-error: true
+ 
+      - name: Redes de Computadores I
+        if: needs.detectar_mudancas_feitas.outputs.redes_de_computadores_I == 'true'
+        run: python .github/scripts/extrair_definicoes_redes_de_computadores_I.py
+        continue-on-error: true
+ 
+      - name: Sistemas de Gerenciamento de Bancos de Dados
+        if: needs.detectar_mudancas_feitas.outputs.sistemas_de_gerenciamento_de_bancos_de_dados == 'true'
+        run: python .github/scripts/extrair_definicoes_sistemas_de_gerenciamento_de_bancos_de_dados.py
+        continue-on-error: true
+ 
+      - name: Inteligencia Artificial
+        if: needs.detectar_mudancas_feitas.outputs.inteligencia_artificial == 'true'
+        run: python .github/scripts/extrair_definicoes_inteligencia_artificial.py
+        continue-on-error: true
+ 
+      - name: Sistemas Operacionais
+        if: needs.detectar_mudancas_feitas.outputs.sistemas_operacionais == 'true'
+        run: python .github/scripts/extrair_definicoes_sistemas_operacionais.py
+        continue-on-error: true
+ 
+      - name: Analise e Projeto de Sistemas I
+        if: needs.detectar_mudancas_feitas.outputs.analise_e_projeto_de_sistemas_I == 'true'
+        run: python .github/scripts/extrair_definicoes_analise_e_projeto_de_sistemas_I.py
+        continue-on-error: true
+ 
+      - name: Automatos e Linguagens Formais
+        if: needs.detectar_mudancas_feitas.outputs.automatos_e_linguagens_formais == 'true'
+        run: python .github/scripts/extrair_definicoes_automatos_e_linguagens_formais.py
+        continue-on-error: true
+ 
+      - name: Construcao de Compiladores
+        if: needs.detectar_mudancas_feitas.outputs.construcao_de_compiladores == 'true'
+        run: python .github/scripts/extrair_definicoes_construcao_de_compiladores.py
+        continue-on-error: true
+ 
+      - name: Teoria da Computacao
+        if: needs.detectar_mudancas_feitas.outputs.teoria_da_computacao == 'true'
+        run: python .github/scripts/extrair_definicoes_teoria_da_computacao.py
+        continue-on-error: true
+ 
+      - name: Informatica e Sociedade
+        if: needs.detectar_mudancas_feitas.outputs.informatica_e_sociedade == 'true'
+        run: python .github/scripts/extrair_definicoes_informatica_e_sociedade.py
+        continue-on-error: true
+
+      - name: Commitar resultado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "**/arquivos_uteis/*.md"
+          git diff --staged --quiet || git commit -m "Atualiza arquivos_uteis automaticamente"
+          git push
