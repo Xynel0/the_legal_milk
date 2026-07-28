@@ -30,5 +30,5 @@
   É importante mencionar que nem sempre a humanidade dispôs de palavras ou símbolos para representar quantidades. Há relatos de que muito tempo atrás os humanos recorriam a sacos com pedras para representar quantidades. Por exemplo, a quantidade de galinhas na imagem abaixo seria representada pelo saco de pedras ao lado, em que cada pedra correspondia a uma única galinha e cada galinha correspondia a uma única pedra. Daí surge a palavra <strong>Calcular</strong>, que significa "fazer conta com pedras". Assim, pode-se dizer que o uso de sacos com pedras foi o primeiro sistema (rudimentar) de numeração.
 </p>
 <div align="center">
-  <img src="./calculo1_assets/galinhas_e_saco_de_pedras.png" style="max-width=50px;">
+  <img src="./calculo1_assets/galinhas_e_saco_de_pedras.png" style="max-width:50px;">
 </div>
