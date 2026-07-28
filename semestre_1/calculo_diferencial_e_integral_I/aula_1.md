@@ -28,7 +28,28 @@
   </ul>
   <br>
   É importante mencionar que nem sempre a humanidade dispôs de palavras ou símbolos para representar quantidades. Há relatos de que muito tempo atrás os humanos recorriam a sacos com pedras para representar quantidades. Por exemplo, a quantidade de galinhas na imagem abaixo seria representada pelo saco de pedras ao lado, em que cada pedra correspondia a uma única galinha e cada galinha correspondia a uma única pedra. Daí surge a palavra <strong>Calcular</strong>, que significa "fazer conta com pedras". Assim, pode-se dizer que o uso de sacos com pedras foi o primeiro sistema (rudimentar) de numeração.
+  <br>
 </p>
+
 <div align="center">
   <img src="./calculo1_assets/galinhas_e_saco_de_pedras.png" alt="Galinhas ao lado de um saco de pedras, ilustrando um sistema rudimentar de contagem">
+</div>
+
+<p>
+  <br>
+  Um grande progresso foi o uso de palavras para representar quantidades e, posteriormente, o advento de símbolos para representá-las. Houveram diversos sistemas de numeração que associavam símbolos a quantidades, sendo o sistema de numeração romano um dos mais conhecidos. Atualmente, porém, o sistema mais amplamente difundido e usado é o sistema hindu-arábico, que possui dez símbolos: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9. A partir de combinações desses símbolos podemos representar cada número natural.
+</p>
+<div class="definicao" id="1">
+  <h3 id="numeros_naturais">
+    <strong>DEFINIÇÃO</strong>
+  </h3>
+  <p>
+    O <strong>conjunto dos números naturais</strong> é o conjunto denotado por $\mathbb{N}$ e dado por
+    <br>
+  </p>
+  <p class="p_centralizado">
+    $$\mathbb{N}≔\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, ... \}$$
+    .
+    <br>
+  </p>
 </div>
