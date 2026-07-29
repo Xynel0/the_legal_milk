@@ -83,10 +83,10 @@ As operações de adição e multiplicação (em $\mathbb{N}$ ) satisfazem as se
 
 #### Em outras palavras...
 <ul>
-  <li><strong>Fechamento:</strong> A soma de dois naturais resulta num natural, assim como o produto de dois naturais resulta num natural</li>
-  <li><strong>Associatividade:</strong> A ordem em que são feitas varias somas não altera o resultado, assim como a ordem em que são feitas varias multiplicações não altera o resultado (não confundir com a ordem entre operações diferentes. Multiplicação segue tendo prioridade sobre a soma).</li>
-  <li><strong>Comutatividade:</strong> A ordem das parcelas não altera a soma, assim como a ordem dos fatores não altera o produto.</li>
-  <li><strong>Elemento neutro:</strong> Somar 0 não altera nada, assim como multiplicar por 1 também não altera nada.</li>
-  <li><strong>Distributividade:</strong> O produto de um número por uma soma pode ser escrito como a soma de cada parcela multiplicada individualmente pelo número (o famoso "chuveirinho"). </li>
-  <li><strong>Integridade:</strong> Se uma soma de naturais dá 0, ambos são 0. Por outro lado, se o produto de dois naturais resulta em 0, OU um deles é 0, OU o outro é 0.</li>
+  <li><strong>Fechamento:</strong><br> A soma de dois naturais resulta num natural, assim como o produto de dois naturais resulta num natural</li>
+  <li><strong>Associatividade:</strong><br> A ordem em que são feitas varias somas não altera o resultado, assim como a ordem em que são feitas varias multiplicações não altera o resultado (não confundir com a ordem entre operações diferentes. Multiplicação segue tendo prioridade sobre a soma).</li>
+  <li><strong>Comutatividade:</strong><br> A ordem das parcelas não altera a soma, assim como a ordem dos fatores não altera o produto.</li>
+  <li><strong>Elemento neutro:</strong><br> Somar 0 não altera nada, assim como multiplicar por 1 também não altera nada.</li>
+  <li><strong>Distributividade:</strong><br> O produto de um número por uma soma pode ser escrito como a soma de cada parcela multiplicada individualmente pelo número (o famoso "chuveirinho"). </li>
+  <li><strong>Integridade:</strong><br> Se uma soma de naturais dá 0, ambos são 0. Por outro lado, se o produto de dois naturais resulta em 0, OU um deles é 0, OU o outro é 0.</li>
 </ul>
