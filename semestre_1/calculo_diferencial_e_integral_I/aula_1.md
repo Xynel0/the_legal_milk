@@ -60,16 +60,16 @@
   </p>
 </div>
 
-<hr>
+---
 
 #### **Observação:**
 O símbolo " $≔$ " signigica que a igualdade ali representada é uma **definição**, isto é, uma descrição daquilo. É como está definido e, portanto, não necessita de prova.
 
-<hr>
+---
 
 As quatro operações fundamentais, adição($+$), subtração($-$), multiplicação ($\cdot$) e divisão($\div$), uma vez que são operações abstratas, não dependem do sistema numérico para serem executadas. Mesmo no caso do saco com pedras, ainda é possível realizá-las, dentro do princípio de que somar é juntar, subtrair é retirar, multiplicar é juntar partes iguais e dividir é separar em partes iguais. Vejamos agora, parte destas operações e suas propriedades.
 
-As operações de adição e multiplicação (em $\mathbb{N}$ ) satisfazem as seguintes propriedades:
+As operações de adição e multiplicação (em $\mathbb{N}$) satisfazem as seguintes propriedades:
 
 | Propriedade | O que diz | Significado |
 |-------------|-------------|-------------|
@@ -90,3 +90,19 @@ As operações de adição e multiplicação (em $\mathbb{N}$ ) satisfazem as se
   <li><strong>Distributividade:</strong><br> O produto de um número por uma soma pode ser escrito como a soma de cada parcela multiplicada individualmente pelo número (o famoso "chuveirinho"). </li>
   <li><strong>Integridade:</strong><br> Se uma soma de naturais dá 0, ambos são 0. Por outro lado, se o produto de dois naturais resulta em 0, OU um deles é 0, OU o outro é 0.</li>
 </ul>
+
+---
+
+#### **Observação:**
+A soma e o produto de $n$ números naturais ($a_1, a_2, ..., a_n$) pode ser simplesmente expressa como
+<p class="p_centralizado" align="center">
+  $$a_1 + a_2 + \cdots + a_n $$
+  e
+  $$a_1 \cdot a_2 \cdot \ldots \cdot a_n$$,
+  <br>
+</p>
+
+sendo desnecessário usar parênteses já que, pelas propriedades da associatividade e da comutatividade, não faz diferença por onde se começa a execução das operações (não confundir com a ordem entre operações diferentes. Multiplicação segue tendo prioridade sobre a soma).
+
+---
+---
