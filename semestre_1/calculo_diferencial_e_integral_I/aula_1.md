@@ -76,3 +76,4 @@ As operações de adição e multiplicação (em $\mathbb{N}$ ) satisfazem as se
 | **Fechamento** | $$a+b, a\cdot b \in \mathbb{N}, \forall a, b \in \mathbb{N}$$ | Os números $a + b$ e $a \cdot b$ pertencem aos naturais, quaisquer que sejam $a$ e $b$ naturais |
 | **Associatividade** | $$(a+b)+c = a+(b+c)$$ e $$(a\cdot b)\cdot c = a\cdot (b\cdot c), \forall a, b, c \in \mathbb{N}$$ | $$(a+b)+c = a+(b+c)$$ e $$(a\cdot b)\cdot c = a\cdot (b\cdot c)$$, quaisquer que sejam $a$, $b$ e $c$ naturais |
 | **Comutatividade** | $$a + b = b + a$$ e $$a\cdot b = b\cdot a, \forall a, b \in \mathbb{N}$$ | $$a + b = b + a$$ e $$a\cdot b = b\cdot a$$, quaisquer que sejam $a$ e $b$ naturais |
+| Existência do **elemento neutro** | $$a+0 = a$$ e $$a\cdot 1 = a, \forall a \in \mathbb{N}$$ | $$a+0 = a$$ e $$a\cdot 1 = a$$, para todo $a$ natural |
