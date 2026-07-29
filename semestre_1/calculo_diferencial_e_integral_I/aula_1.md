@@ -60,8 +60,11 @@
   </p>
 </div>
 
+<hr>
+
 #### **Observação:**
 O símbolo " $≔$ " signigica que a igualdade ali representada é uma **definição**, isto é, uma descrição daquilo. É como está definido e, portanto, não necessita de prova.
-<br>
-<br>
+
+<hr>
+
 As quatro operações fundamentais, adição($+$), subtração($-$), multiplicação ($\cdot$) e divisão($\div$), uma vez que são operações abstratas, não dependem do sistema numérico para serem executadas. Mesmo no caso do saco com pedras, ainda é possível realizá-las, dentro do princípio de que somar é juntar, subtrair é retirar, multiplicar é juntar partes iguais e dividir é separar em partes iguais. Vejamos agora, parte destas operações e suas propriedades.
