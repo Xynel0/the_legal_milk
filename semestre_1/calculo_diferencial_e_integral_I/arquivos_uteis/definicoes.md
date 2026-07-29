@@ -1,5 +1,5 @@
 <div class="definicoes" id="1">
-<h3 id="numeros_naturais">
+<h3 id="Números naturais">
 <strong>DEFINIÇÃO</strong>
 </h3>
 <p>
