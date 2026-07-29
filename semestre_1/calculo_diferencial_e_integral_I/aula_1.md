@@ -71,10 +71,12 @@ As quatro operações fundamentais, adição($+$), subtração($-$), multiplica�
 
 As operações de adição e multiplicação (em $\mathbb{N}$ ) satisfazem as seguintes propriedades:
 
-| Propriedade | O que dizem | Significado |
+| Propriedade | O que diz | Significado |
 |-------------|-------------|-------------|
 | **Fechamento** | $$a+b, a\cdot b \in \mathbb{N}, \forall a, b \in \mathbb{N}$$ | Os números $a + b$ e $a \cdot b$ pertencem aos naturais, quaisquer que sejam $a$ e $b$ naturais |
 | **Associatividade** | $$(a+b)+c = a+(b+c)$$ e $$(a\cdot b)\cdot c = a\cdot (b\cdot c), \forall a, b, c \in \mathbb{N}$$ | $$(a+b)+c = a+(b+c)$$ e $$(a\cdot b)\cdot c = a\cdot (b\cdot c)$$, quaisquer que sejam $a$, $b$ e $c$ naturais |
 | **Comutatividade** | $$a + b = b + a$$ e $$a\cdot b = b\cdot a, \forall a, b \in \mathbb{N}$$ | $$a + b = b + a$$ e $$a\cdot b = b\cdot a$$, quaisquer que sejam $a$ e $b$ naturais |
 | Existência do **elemento neutro** | $$a+0 = a$$ e $$a\cdot 1 = a, \forall a \in \mathbb{N}$$ | $$a+0 = a$$ e $$a\cdot 1 = a$$, para todo $a$ natural |
+| **Distributividade** da multiplicação em relação à adição | $a \cdot (b+c) = a \cdot b + b \cdot c, \forall a, b, c \in \mathbb{N}$ | $a \cdot (b+c) = a \cdot b + b \cdot c$, para quaisquer $a$, $b$ e $c$ naturais |
+| **Integridade** da adição | $a, b \in \mathbb{N} \land a + b = 0 \implies a = 0 \land b = 0$ | se $a, b \in \mathbb{N}$ e $a + b = 0,$ então $a = 0$ e $b = 0$ |
 > Nota: para rever os significados dos sinais acima, e outros, [clique aqui](../arquivos_uteis_s1/simbolos_matematicos_e_logicos.md)
