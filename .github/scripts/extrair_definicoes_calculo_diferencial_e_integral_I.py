@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 # --- Configurações específicas desta disciplina ---
 pasta_disciplina = "semestre_1/calculo_diferencial_e_integral_I"
 classe_alvo = "definicoes"
-pasta_saida = os.path.join(pasta_disciplina, "arquivos_uteis")
+pasta_saida = os.path.join(pasta_disciplina, "calculo1_arquivos_uteis")
 arquivo_saida = os.path.join(pasta_saida, f"{classe_alvo}.md")
 # ----------------------------------------------------
 
