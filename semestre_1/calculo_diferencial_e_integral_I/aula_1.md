@@ -40,7 +40,7 @@
   Um grande progresso foi o uso de palavras para representar quantidades e, posteriormente, o advento de símbolos para representá-las. Houveram diversos sistemas de numeração que associavam símbolos a quantidades, sendo o sistema de numeração romano um dos mais conhecidos. Atualmente, porém, o sistema mais amplamente difundido e usado é o sistema hindu-arábico, que possui dez símbolos: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9. A partir de combinações desses símbolos podemos representar cada número natural.
 </p>
 <div class="definicoes" id="1">
-  <h3 id="Números naturais teste">
+  <h3 id="Números naturais teste123">
     <strong>DEFINIÇÃO</strong>
   </h3>
   <p>
