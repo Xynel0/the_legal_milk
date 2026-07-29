@@ -28,6 +28,6 @@ os.makedirs(pasta_saida, exist_ok=True)
 
 with open(arquivo_saida, "w", encoding="utf-8") as f:
     for _, html in divs_encontradas:
-        f.write(html + "\n\n")
+        f.write(html + "\n<hr>\n\n")
 
 print(f"{len(divs_encontradas)} divs extraídas e salvas em {arquivo_saida}")
