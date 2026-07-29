@@ -73,4 +73,4 @@ As operações de adição e multiplicação (em $\mathbb{N}$ ) satisfazem as se
 
 | Propriedade | O que dizem | Significado |
 |-------------|-------------|-------------|
-| **Fechamento** | $$a + b \in \mathbb{N}, \forall a, b \in \mathbb{N}$$ | O número $a + b$ pertence aos naturais, quaisquer que sejam $a$ e $b$ naturais
+| **Fechamento** | $$a + b \in \mathbb{N}, \forall a, b \in \mathbb{N}$$ | O número $a + b$ pertence aos naturais, quaisquer que sejam $a$ e $b$ naturais |
