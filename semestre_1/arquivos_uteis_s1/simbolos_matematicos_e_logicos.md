@@ -14,6 +14,6 @@
 | $\Rightarrow$ | Implica, se então | $x = y \land x = 1 \Rightarrow y = 1$ |
 | $\Leftarrow$ | É implicado por, somente se | $(x = y \Rightarrow y = 1) \Leftarrow x = 1$ |
 | $\Leftrightarrow$ | Se, e somente se | $x \in \mathbb{N} ^* \Leftrightarrow x \in \mathbb{N} \land x \neq 0$ |
-| $\neg$ | Negação, não | $\neg (\forall x, y \in \mathbb{N}, x = y)$ |
-| $\therefore$ | Portanto, daí, assim,... | $x > 2 \therefore x > 1$ |
+| $\neg$ | Negação, não (alumas notações usam " ' " após o parêntese de fechamento) | $\neg (\forall x, y \in \mathbb{N}, x = y)$ |
 | $\overline{}$ | Negação, não | $\mathcal{P} =$ todo dia chove $\Rightarrow \overline{\mathcal{P}}$ |
+| $\therefore$ | Portanto, daí, assim,... | $x > 2 \therefore x > 1$ |
