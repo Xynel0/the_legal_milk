@@ -1,6 +1,6 @@
 <div class="definicoes" id="1">
-<h3 id="Números naturais teste123">
-<strong>Números naturais teste123</strong>
+<h3 id="Números naturais">
+<strong>Números naturais</strong>
 </h3>
 <p>
     O <strong>conjunto dos números naturais</strong> é o conjunto denotado por $\mathbb{N}$ e dado por
