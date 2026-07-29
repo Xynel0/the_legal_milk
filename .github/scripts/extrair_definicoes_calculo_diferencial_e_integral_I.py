@@ -20,6 +20,13 @@ for arquivo in glob.glob(os.path.join(pasta_disciplina, "*.md")):
     for div in soup.find_all("div", class_=classe_alvo, id=True):
         id_attr = div.get("id")
         if id_attr and id_attr.isdigit():
+
+            h3 = div.find("h3")
+            if h3 and h3.get("id"):
+                strong = h3.find("strong")
+                if strong:
+                    strong.string = h3["id"]
+            
             divs_encontradas.append((int(id_attr), str(div)))
 
 divs_encontradas.sort(key=lambda x: x[0])
