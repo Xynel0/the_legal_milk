@@ -40,7 +40,7 @@
   Um grande progresso foi o uso de palavras para representar quantidades e, posteriormente, o advento de símbolos para representá-las. Houveram diversos sistemas de numeração que associavam símbolos a quantidades, sendo o sistema de numeração romano um dos mais conhecidos. Atualmente, porém, o sistema mais amplamente difundido e usado é o sistema hindu-arábico, que possui dez símbolos: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9. A partir de combinações desses símbolos podemos representar cada número natural.
 </p>
 <div class="definicoes" id="1">
-  <h3 id="Números naturais teste123">
+  <h3 id="Números naturais">
     <strong>DEFINIÇÃO</strong>
   </h3>
   <p>
@@ -75,5 +75,4 @@ As operações de adição e multiplicação (em $\mathbb{N}$ ) satisfazem as se
 |-------------|-------------|-------------|
 | **Fechamento** | $$a+b, a\cdot b \in \mathbb{N}, \forall a, b \in \mathbb{N}$$ | Os números $a + b$ e $a \cdot b$ pertencem aos naturais, quaisquer que sejam $a$ e $b$ naturais |
 | **Associatividade** | $$(a+b)+c = a+(b+c)$$ e $$(a\cdot b)\cdot c = a\cdot (b\cdot c), \forall a, b, c \in \mathbb{N}$$ | $$(a+b)+c = a+(b+c)$$ e $$(a\cdot b)\cdot c = a\cdot (b\cdot c)$$, quaisquer que sejam $a$, $b$ e $c$ naturais |
-
-teste
+| **Comutatividade** | $$a + b = b + a$$ e $$a\cdot b = b\cdot a, \forall a, b \in \mathbb{N}$$ | $$a + b = b + a$$ e $$a\cdot b = b\cdot a$$, quaisquer que sejam $a$ e $b$ naturais |
