@@ -106,3 +106,29 @@ sendo desnecessário usar parênteses já que, pelas propriedades da associativi
 
 ---
 ---
+
+Uma equação pode ser entendida como um tipo de pergunta. Por exemplo, a expressão
+
+<p class="p_centralizado" align="center">
+  $$2x +4 = 10$$,
+</p>
+
+no universo dos números naturais, pode ser entendida como a pergunta: "Qual o número natural cujo dobro mais quatro é igual a 10?"
+
+Uma ***solução*** desta equação é qualquer resposta correta para esta pergunta, ou seja, qualquer número natural cujo dobro mais quatro é igual a 10. Analisando brevemente a equação, é possivel perceber que $3$ é uma solução (neste caso, a única solução) para esta pergunta.
+
+O ***conjunto solução*** de uma equação é formado por **cada resposta**, dentro do universo de interesse, para a pergunta em questão. No caso da equação acima, o seu conjunto solução em $\mathbb{N}$, é o conjunto $\mathit{S}$ dado por
+
+<p class="p_centralizado" align="center">
+  $$\mathit{S} = \{3\}$$.
+</p>
+
+Vejamos outro caso:
+No universo dos naturais, a equação $x + 3 = 5$ possui solução. Sabemos que seu conjunto solução $\mathit{S}$ é unitário e dado por $\mathit{S} = \{2\}$. Já a equação $x + 5 = 2$  não possui solução nesse universo (pois não existe nenhum número natural que, somado a 5, resulte em 2). Nesse caso, seu conjunto solução $\mathit{S}$ é vazio, sendo representado por
+
+
+<p class="p_centralizado" align="center">
+  $$\mathit{S} = \varnothing$$.
+</p>
+
+> Nota: abordaremos teoria dos conjuntos em [uma aula mais à frente]()
