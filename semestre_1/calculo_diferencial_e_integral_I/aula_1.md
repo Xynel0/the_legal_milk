@@ -105,7 +105,6 @@ A soma e o produto de $n$ números naturais ($a_1, a_2, ..., a_n$) pode ser simp
 sendo desnecessário usar parênteses já que, pelas propriedades da associatividade e da comutatividade, não faz diferença por onde se começa a execução das operações (não confundir com a ordem entre operações diferentes. Multiplicação segue tendo prioridade sobre a soma).
 
 ---
----
 
 Uma equação pode ser entendida como um tipo de pergunta. Por exemplo, a expressão
 
@@ -131,4 +130,9 @@ No universo dos naturais, a equação $x + 3 = 5$ possui solução. Sabemos que 
   $$\mathit{S} = \varnothing$$.
 </p>
 
-> Nota: abordaremos teoria dos conjuntos em [uma aula mais à frente]()
+> Nota: abordaremos teoria dos conjuntos em [uma aula mais à frente]() <!-- ADICIONAR LINK PARA A AULA DE CONJUNTOS -->
+
+---
+---
+
+## Inteiros ($\mathbb{Z}$)
