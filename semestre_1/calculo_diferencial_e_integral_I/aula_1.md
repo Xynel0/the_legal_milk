@@ -174,4 +174,4 @@ Vejamos agora, algumas definições aplicaveis a elementos destes conjuntos
 
 Assim, já que $2=2\cdot 1$, $6=2\cdot 3$, $-1010 = 2\cdot (-505)$ e $0=2\cdot 0$, os números $2$, $6$, $-1010$ e $0$ são pares.
 
-<p>Veja que cada inteiro no conjunto $\{0, -2, +2, -4, +4, -6, +6, \ldots\}$ é par.</p>
+Veja que cada inteiro no conjunto $\{0, -2, +2, -4, +4, -6, +6, \ldots\}$ é par.
