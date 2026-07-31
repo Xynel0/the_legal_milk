@@ -39,3 +39,13 @@
 </div>
 <hr>
 
+<div class="definicoes" id="3">
+<h3 id="Número par">
+<strong>Número par</strong>
+</h3>
+<p>
+    Seja $n \in \mathbb{Z}$. Dizemos que <strong>$n$ é par</strong> quando existe algum número inteiro $k$ tal que $n=2k$. Ou seja, $n$ é par se houver algum inteiro que, multiplicado por $2$, resulte em $n$.
+  </p>
+</div>
+<hr>
+
