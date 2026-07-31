@@ -49,3 +49,13 @@
 </div>
 <hr>
 
+<div class="definicoes" id="4">
+<h3 id="Número ímpar">
+<strong>Número ímpar</strong>
+</h3>
+<p>
+    Seja $n \in \mathbb{Z}$. Dizemos que <strong>$n$ é ímpar</strong> quando existe algum número inteiro $k$ tal que $n=2k+1$. Ou seja, $n$ é ímpar se houver algum inteiro que, multiplicado por $2$, resulte em um número que, somado a $1$, resulte em $n$.
+  </p>
+</div>
+<hr>
+
