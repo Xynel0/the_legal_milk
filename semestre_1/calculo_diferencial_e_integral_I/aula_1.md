@@ -161,3 +161,17 @@ Para, por exemplo, dar uma solução à equação $x + 5 = 2$, contar grandezas 
 
 ---
 
+Vejamos agora, algumas definições aplicaveis a elementos destes conjuntos
+
+<div class="definicoes" id="3">
+  <h3 id="Número par">
+    <strong>DEFINIÇÃO</strong>
+  </h3>
+  <p>
+    Seja $n \in \mathbb{Z}$. Dizemos que <strong>$n$ é par</strong> quando existe algum número inteiro $k$ tal que $n=2k$. Ou seja, $n$ é par se houver algum inteiro que, multiplicado por $2$, resulte em $n$.
+  </p>
+</div>
+
+Assim, já que $2=2\cdot 1$, $6=2\cdot 3$, $-1010 = 2\cdot (-505)$ e $0=2\cdot 0$, os números $2$, $6$, $-1010$ e $0$ são pares.
+
+<p>Veja que cada inteiro no conjunto $\{0, -2, +2, -4, +4, -6, +6, \ldots\}$ é par.</p>
