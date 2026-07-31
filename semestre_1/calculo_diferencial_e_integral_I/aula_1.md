@@ -174,4 +174,20 @@ Vejamos agora, algumas definições aplicaveis a elementos destes conjuntos
 
 Assim, já que $2=2\cdot 1$, $6=2\cdot 3$, $-1010 = 2\cdot (-505)$ e $0=2\cdot 0$, os números $2$, $6$, $-1010$ e $0$ são pares.
 
-Veja que cada inteiro no conjunto $\{0, -2, +2, -4, +4, -6, +6, \ldots\}$ é par.
+<p>Veja que cada inteiro no conjunto $\{0, -2, +2, -4, +4, -6, +6, \ldots\}$ é par.</p>
+
+<div class="definicoes" id="4">
+  <h3 id="Número ímpar">
+    <strong>DEFINIÇÃO</strong>
+  </h3>
+  <p>
+    Seja $n \in \mathbb{Z}$. Dizemos que <strong>$n$ é ímpar</strong> quando existe algum número inteiro $k$ tal que $n=2k+1$. Ou seja, $n$ é ímpar se houver algum inteiro que, multiplicado por $2$, resulte em um número que, somado a $1$, resulte em $n$.
+  </p>
+</div>
+
+Assim, já que $3=2\cdot 1 + 1$, $7=2\cdot 3 + 1$, $-1009 = 2\cdot (-505) +1$ e $1=2\cdot 0 + 1$, os números $3$, $7$, $-1009$ e $1$ são pares.
+
+<p>Veja que cada inteiro no conjunto $\{-1, 1, -3, +3, -5, +5, -7, +7, \ldots\}$ é par.</p>
+
+Analisando brevemente o conjunto dos pares e dos ímpares, é possível perceber que **cada número inteiro ou é par, ou é ímpar**.
+
