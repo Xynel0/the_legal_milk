@@ -48,14 +48,14 @@
     <br>
   </p>
   <p class="p_centralizado" align="center">
-    $$\mathbb{N}≔\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, ... \}$$
+    $$\mathbb{N}≔\{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, \ldots \}$$
     <br>
   </p>
   <p>
     A notação $\mathbb{N}^*$ exclui o $0$, e refere-se aos <strong>naturais não nulos</strong>, ou seja:
   </p>
   <p class="p_centralizado" align="center">
-    $$\mathbb{N}^*≔\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, ... \}$$
+    $$\mathbb{N}^*≔\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, \ldots \}$$
     <br>
   </p>
 </div>
@@ -94,11 +94,9 @@ As operações de adição e multiplicação (em $\mathbb{N}$) satisfazem as seg
 ---
 
 #### **Observação:**
-A soma e o produto de $n$ números naturais ($a_1, a_2, ..., a_n$) pode ser simplesmente expressa como
+A soma e o produto de $n$ números naturais ($a_1, a_2, \ldots , a_n$) pode ser simplesmente expressa como
 <p class="p_centralizado" align="center">
-  $$a_1 + a_2 + \cdots + a_n $$
-  e
-  $$a_1 \cdot a_2 \cdot \ldots \cdot a_n$$,
+  $$a_1 + a_2 + \cdots + a_n $$ e $$a_1 \cdot a_2 \cdot \ldots \cdot a_n$$,
   <br>
 </p>
 
@@ -136,3 +134,30 @@ No universo dos naturais, a equação $x + 3 = 5$ possui solução. Sabemos que 
 ---
 
 ## Inteiros ($\mathbb{Z}$)
+
+Para, por exemplo, dar uma solução à equação $x + 5 = 2$, contar grandezas em caráter relativo, entre outros motivos, foram criados os números inteiros (representados por $\mathbb{Z}$)
+
+<div class="definicoes" id="2">
+  <h3 id="Números inteiros">
+    <strong>DEFINIÇÃO</strong>
+  </h3>
+  <p>O <strong>conjunto dos números inteiros</strong> é denotado por $\mathbb{Z}$ e dado por</p>
+  <p class="p_centralizado" align="center">
+    $$\mathbb{Z}≔\{\ldots , -4, -3, -2, -1, 0, +1, +2, +3, +4, \ldots \}$$
+    <br>
+  </p>
+  <p>
+    A notação $\mathbb{Z}^*$ exclui o $0$, e refere-se aos <strong>inteiros não nulos</strong>, ou seja:
+  </p>
+  <p class="p_centralizado" align="center">
+    $$\mathbb{Z}^*≔\{\ldots , -4, -3, -2, -1, +1, +2, +3, +4, \ldots \}$$
+    <br>
+  </p>
+</div>
+
+---
+
+ observação: uma vez que $+1=1, +2=2, \ldots$, cada natural é também um inteiro
+
+---
+
