@@ -1,0 +1,46 @@
+# Bibliotecas
+
+import pypandoc
+import os
+import argparse
+import sys
+# ------------------------------------------------------------------------
+
+def md_to_pdf(name_md: str, name_pdf: str, pdf_engine: str) -> str:
+
+    # Argumentos extras a serem passados para o pandoc
+    extra_args = [
+        f'--pdf-engine={pdf_engine}',
+        '--variable', 'geometry:top=3cm,bottom=2cm,left=3cm,right=2cm', # Formatação ABNT
+        '--variable', 'mainfont=Times New Roman',
+        '-N' # Divide em seções, opcional
+    ]
+
+    try:
+        # A conversão acontece aqui
+        output = pypandoc.convert_file(
+            name_md,
+            'pdf',
+            outputfile=name_pdf,
+            extra_args = extra_args
+        )
+        print(0)
+        return f'Markdown {name_md} converted to PDF as {name_pdf}'
+    
+    except Exception as e:
+        print(e)
+        return f'Error during conversion: {e}'
+
+# ----------------------------------------------------------------------------------------------------------
+# Permite chamar o script por CLI com argumentos
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Converts Markdown to PDF using Pandoc")
+    parser.add_argument("input", help="Caminho do arquivo markdown que será convertido")
+    parser.add_argument("output", help="Caminho do PDF de saída")
+    parser.add_argument("--engine", default="tectonic", help="PDF Engine (xelatex, tectonic, weasyprint)")
+
+    args = parser.parse_args()
+
+    success = md_to_pdf(args.input, args.output, args.engine)
+    if not success:
+        sys.exit(1)
