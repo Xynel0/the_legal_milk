@@ -223,7 +223,7 @@ Assim, por exemplo, $3$ é divisor de $-6$ e $4$ é divisor de $12$.
 
 Perceba que, PELA DEFINIÇÃO, $0$ não é divisor de nenhum inteiro $n$, MAS, $\forall m \in \mathbb{Z}$, $m$ é um divisor de $0$, bastando para isso que $k=0$
 
-Perceba que, dados $m$ e$ $n$ inteiros, com $m \neq 0$,
+Perceba que, dados $m$ e $n$ inteiros, com $m \neq 0$,
 
 <p class="p_centralizado" align="center">
   $m$ é divisor de $n \Leftrightarrow n$ é múltiplo de $m$.
