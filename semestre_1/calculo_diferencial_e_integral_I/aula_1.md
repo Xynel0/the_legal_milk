@@ -73,10 +73,10 @@ As operações de adição e multiplicação (em $\mathbb{N}$) satisfazem as seg
 
 | Propriedade | O que diz | Significado |
 |-------------|-------------|-------------|
-| **Fechamento** | $$a+b, a\cdot b \in \mathbb{N}, \forall a, b \in \mathbb{N}$$ | Os números $a + b$ e $a \cdot b$ pertencem aos naturais, quaisquer que sejam $a$ e $b$ naturais |
-| **Associatividade** | $$(a+b)+c = a+(b+c)$$ e $$(a\cdot b)\cdot c = a\cdot (b\cdot c), \forall a, b, c \in \mathbb{N}$$ | $$(a+b)+c = a+(b+c)$$ e $$(a\cdot b)\cdot c = a\cdot (b\cdot c)$$, quaisquer que sejam $a$, $b$ e $c$ naturais |
-| **Comutatividade** | $$a + b = b + a$$ e $$a\cdot b = b\cdot a, \forall a, b \in \mathbb{N}$$ | $$a + b = b + a$$ e $$a\cdot b = b\cdot a$$, quaisquer que sejam $a$ e $b$ naturais |
-| Existência do **elemento neutro** | $$a+0 = a$$ e $$a\cdot 1 = a, \forall a \in \mathbb{N}$$ | $$a+0 = a$$ e $$a\cdot 1 = a$$, para todo $a$ natural |
+| **Fechamento** | $$a+b, a \cdot b \in \mathbb{N}, \forall a, b \in \mathbb{N}$$ | Os números $a + b$ e $a \cdot b$ pertencem aos naturais, quaisquer que sejam $a$ e $b$ naturais |
+| **Associatividade** | $$(a+b)+c = a+(b+c)$$ e $$(a \cdot b) \cdot c = a \cdot (b \cdot c), \forall a, b, c \in \mathbb{N}$$ | $$(a+b)+c = a+(b+c)$$ e $$(a \cdot b) \cdot c = a \cdot (b \cdot c)$$, quaisquer que sejam $a$, $b$ e $c$ naturais |
+| **Comutatividade** | $$a + b = b + a$$ e $$a \cdot b = b \cdot a, \forall a, b \in \mathbb{N}$$ | $$a + b = b + a$$ e $$a \cdot b = b \cdot a$$, quaisquer que sejam $a$ e $b$ naturais |
+| Existência do **elemento neutro** | $$a+0 = a$$ e $$a \cdot 1 = a, \forall a \in \mathbb{N}$$ | $$a+0 = a$$ e $$a \cdot 1 = a$$, para todo $a$ natural |
 | **Distributividade** da multiplicação em relação à adição | $a \cdot (b+c) = a \cdot b + b \cdot c, \forall a, b, c \in \mathbb{N}$ | $a \cdot (b+c) = a \cdot b + b \cdot c$, para quaisquer $a$, $b$ e $c$ naturais |
 | **Integridade** da adição | $a, b \in \mathbb{N} \land a + b = 0 \implies a = 0 \land b = 0$ | se $a, b \in \mathbb{N}$ e $a + b = 0,$ então $a = 0$ e $b = 0$ |
 > Nota: Para rever os significados dos sinais acima, e outros, [clique aqui](../arquivos_uteis_s1/simbolos_matematicos_e_logicos.md)
@@ -172,7 +172,7 @@ Vejamos agora, algumas definições aplicaveis a elementos destes conjuntos
   </p>
 </div>
 
-Assim, já que $2=2\cdot 1$, $6=2\cdot 3$, $-1010 = 2\cdot (-505)$ e $0=2\cdot 0$, os números $2$, $6$, $-1010$ e $0$ são pares.
+Assim, já que $2=2 \cdot 1$, $6=2 \cdot 3$, $-1010 = 2 \cdot (-505)$ e $0=2 \cdot 0$, os números $2$, $6$, $-1010$ e $0$ são pares.
 
 <p>Veja que cada inteiro no conjunto $\{0, -2, +2, -4, +4, -6, +6, \ldots\}$ é par.</p>
 
@@ -185,7 +185,7 @@ Assim, já que $2=2\cdot 1$, $6=2\cdot 3$, $-1010 = 2\cdot (-505)$ e $0=2\cdot 0
   </p>
 </div>
 
-Assim, já que $3=2\cdot 1 + 1$, $7=2\cdot 3 + 1$, $-1009 = 2\cdot (-505) +1$ e $1=2\cdot 0 + 1$, os números $3$, $7$, $-1009$ e $1$ são pares.
+Assim, já que $3=2 \cdot 1 + 1$, $7=2 \cdot 3 + 1$, $-1009 = 2 \cdot (-505) +1$ e $1=2 \cdot 0 + 1$, os números $3$, $7$, $-1009$ e $1$ são pares.
 
 <p>Veja que cada inteiro no conjunto $\{-1, 1, -3, +3, -5, +5, -7, +7, \ldots\}$ é par.</p>
 
@@ -195,7 +195,38 @@ Analisando brevemente o conjunto dos pares e dos ímpares, é possível perceber
   <h3 id="Multiplicidade">
     <strong>DEFINIÇÃO</strong>
   </h3>
-
-TESTE
-
+  <p>
+    Sejam $m, n \in \mathbb{Z}$. Dizemos que $n$ é <strong>múltiplo</strong> de $m$ quando existe algum inteiro $k$ tal que $n = k \cdot m$. Ou seja, $n$ é múltiplo de $m$ se houver algum inteiro que, multiplicado por $m$ resulte em $n$. Vale lembrar que este inteiro $k$ também pode ser $0$ e, portanto, $0$ é múltiplo de qualquer número inteiro, já que $0 = 0 \cdot m, \forall m \in \mathbb{Z}$.
+  </p>
 </div>
+
+Assim, por exemplo, $12$ é múltiplo de $3$ porque $12 = 4 \cdot 3, assim como $-36$ é múltiplo de $4$ porque $-36 = (-9) \cdot 4$.
+Veja também que, $\forall n \in \mathbb{Z}$, seus múltiplos são os inteiros do conjunto
+
+<p class="p_centralizado" align="center">
+  $\{ 0, n, -n, 2n, -2n, 3n, -3n, 4n, -4n, 5n, -5n, \cdots \}$.
+</p>
+
+> No caso do $0$, $k=0$. No caso de $n$ e de $-n$, $k=1$ e $k=-1$, respectivamente.
+
+> Vale citar, os **números pares** são os múltiplos de 2.
+
+<div class="definicoes" id ="6">
+  <h3 id="Divisibilidade">
+    <strong>DEFINIÇÃO</strong>
+  </h3>
+  <p>Sejam $n \in \mathbb{Z}, m \in \mathbb{Z}^*$. Dizemos que <strong>$m$ divide $n$</strong> (ou que $n$ é divisível por $m$, ou ainda, que $m$ é um fator de $n$) quando $\exists k \in \mathbb{Z}$ tal que $n = k \cdot m$. Ou seja, $m$ divide $n$ se é possível encontrar algum inteiro $k$ que, multiplicado por $m$, resulte em $n$.
+  </p>
+</div>
+
+Assim, por exemplo, $3$ é divisor de $-6$ e $4$ é divisor de $12$.
+
+Perceba que, PELA DEFINIÇÃO, $0$ não é divisor de nenhum inteiro $n$, MAS, $\forall m \in \mathbb{Z}$, $m$ é um divisor de $0$, bastando para isso que $k=0$
+
+Perceba que, dados $m$ e$ $n$ inteiros, com $m \neq 0$,
+
+<p class="p_centralizado" align="center">
+  $m$ é divisor de $n \Leftrightarrow n$ é múltiplo de $m$.
+</p>
+
+Outro ponto importante a ser citado é que, $\forall n \in \mathbb{Z}^*$, os **divisores triviais** de $n$ são $1, -1, n, -n$.
