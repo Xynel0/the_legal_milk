@@ -63,9 +63,18 @@
 <h3 id="Multiplicidade">
 <strong>Multiplicidade</strong>
 </h3>
+<p>
+    Sejam $m, n \in \mathbb{Z}$. Dizemos que $n$ é <strong>múltiplo</strong> de $m$ quando existe algum inteiro $k$ tal que $n = k \cdot m$. Ou seja, $n$ é múltiplo de $m$ se houver algum inteiro que, multiplicado por $m$ resulte em $n$. Vale lembrar que este inteiro $k$ também pode ser $0$ e, portanto, $0$ é múltiplo de qualquer número inteiro, já que $0 = 0 \cdot m, \forall m \in \mathbb{Z}$.
+  </p>
+</div>
+<hr>
 
-TESTE
-
+<div class="definicoes" id="6">
+<h3 id="Divisibilidade">
+<strong>Divisibilidade</strong>
+</h3>
+<p>Sejam $n \in \mathbb{Z}, m \in \mathbb{Z}^*$. Dizemos que <strong>$m$ divide $n$</strong> (ou que $n$ é divisível por $m$, ou ainda, que $m$ é um fator de $n$) quando $\exists k \in \mathbb{Z}$ tal que $n = k \cdot m$. Ou seja, $m$ divide $n$ se é possível encontrar algum inteiro $k$ que, multiplicado por $m$, resulte em $n$.
+  </p>
 </div>
 <hr>
 
