@@ -280,4 +280,4 @@ Por outro lado,
 
 Assim, têm-se como exemplos de primos os números $2$, $-5$, $13$ e $17$, e como exemplos de NÃO primos os números $10 = 2 \cdot 5$, e $81 = 3^4$.
 
-**Reflita:** Se $a, b \in \mathbb{Z}, a \neq 0 \lor b \neq 0, então $a$ e $b$ são primos entre si se, e somente se, $a$ e $b$ não possuem fatores primos em comum.
+**Reflita:** Se $a, b \in \mathbb{Z}, a \neq 0 \lor b \neq 0$, então $a$ e $b$ são primos entre si se, e somente se, $a$ e $b$ não possuem fatores primos em comum.
