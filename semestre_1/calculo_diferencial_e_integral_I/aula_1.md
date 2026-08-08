@@ -230,3 +230,18 @@ Perceba que, dados $m$ e $n$ inteiros, com $m \neq 0$,
 </p>
 
 Outro ponto importante a ser citado é que, $\forall n \in \mathbb{Z}^*$, os **divisores triviais** de $n$ são $1, -1, n, -n$.
+
+<div class="definicoes" id ="7">
+  <h3 id="Máximo divisor comum (M.D.C.)">
+    <strong>DEFINIÇÃO</strong>
+  </h3>
+  <p>Sejam $a, b \in \mathbb{Z}$, com $a \neq 0$ OU $b \neq 0$. O <strong>Máximo Divisor Comum</strong> de $a$ e $b$ é o maior inteiro positivo que divide $a$ e que divide $b$, sendo denotado por $\mathrm{MDC}(a,b)$. Como o nome bem sugere, o MDC de dois números é o maior inteiro que é divisor comum, que consegue dividir esses dois números ao mesmo tempo.</p>
+</div>
+<div class="definicoes" id ="8">
+  <h3 id="Primos entre si"></h3>
+  <p>Dizemos que $a$ e $b$ são <strong>primos entre si</strong> quando $\mathrm{MDC}(a, b) = 1$.</p>
+</div>
+
+> Observação: Veja que se ambos forem 0, como todo número é divisor de 0, não haveria um máximo divisor. Seriam infinitos divisores, um maior que o outro.
+
+> Observação: A definição do MDC pode ser estendida para mais de dois números.
