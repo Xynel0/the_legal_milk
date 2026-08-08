@@ -87,7 +87,7 @@
 <hr>
 
 <div class="definicoes" id="8">
-<h3 id="Primos entre si"></h3>
+<h3 id="Primos entre si"><strong>Primos entre si</strong></h3>
 <p>Dizemos que $a$ e $b$ são <strong>primos entre si</strong> quando $\mathrm{MDC}(a, b) = 1$.</p>
 </div>
 <hr>
