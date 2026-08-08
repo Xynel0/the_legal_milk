@@ -78,3 +78,17 @@
 </div>
 <hr>
 
+<div class="definicoes" id="7">
+<h3 id="Máximo divisor comum (M.D.C.)">
+<strong>Máximo divisor comum (M.D.C.)</strong>
+</h3>
+<p>Sejam $a, b \in \mathbb{Z}$, com $a \neq 0$ OU $b \neq 0$. O <strong>Máximo Divisor Comum</strong> de $a$ e $b$ é o maior inteiro positivo que divide $a$ e que divide $b$, sendo denotado por $\mathrm{MDC}(a,b)$. Como o nome bem sugere, o MDC de dois números é o maior inteiro que é divisor comum, que consegue dividir esses dois números ao mesmo tempo.</p>
+</div>
+<hr>
+
+<div class="definicoes" id="8">
+<h3 id="Primos entre si"></h3>
+<p>Dizemos que $a$ e $b$ são <strong>primos entre si</strong> quando $\mathrm{MDC}(a, b) = 1$.</p>
+</div>
+<hr>
+
