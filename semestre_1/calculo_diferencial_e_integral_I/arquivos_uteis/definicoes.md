@@ -92,3 +92,33 @@
 </div>
 <hr>
 
+<div class="definicoes" id="9">
+<h3 id="Números Primos">
+<strong>Números Primos</strong>
+</h3>
+<p>
+    Seja $p \in \mathbb{Z}$. Dizemos que $p$ é <strong>primo</strong> quando
+  </p>
+<ul align="center" class="ul_centralizado">
+<li>$p \neq 0$,</li>
+<li>$p \neq 1$,</li>
+<li>$p \neq -1$ e</li>
+<li>$p$ possui somente divisores triviais $(1, -1, p, -p)$.</li>
+</ul>
+</div>
+<hr>
+
+<div class="definicoes" id="10">
+<h3 id="Números Compostos">
+<strong>Números Compostos</strong>
+</h3>
+<p> dado $p \in \mathbb{Z}$, dizemos que $p$ é <strong>composto</strong> quando</p>
+<ul align="center" class="ul_centralizado">
+<li>$p \neq 0$,</li>
+<li>$p \neq 1$,</li>
+<li>$p \neq -1$ e</li>
+<li>$p$ possui ao menos um divisor não trivial, ou seja, não é primo.</li>
+</ul>
+</div>
+<hr>
+
