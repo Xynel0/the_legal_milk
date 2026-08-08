@@ -245,3 +245,39 @@ Outro ponto importante a ser citado é que, $\forall n \in \mathbb{Z}^*$, os **d
 > Observação: Veja que se ambos forem 0, como todo número é divisor de 0, não haveria um máximo divisor. Seriam infinitos divisores, um maior que o outro.
 
 > Observação: A definição do MDC pode ser estendida para mais de dois números.
+
+Lembre que $1$ é divisor de qualquer inteiro. Daí, se o único divisor comum de dois números é $1$, de certo modo eles tem esse divisor comum somente pelo fato de que $1$ divide qualquer número, somente pelo fato de que $1$ é divisor trivial de qualquer número. Essa ideia de ter somente o divisor trivial talvez lhe lembre de uma outra definição. Se não for esse o caso, não há problema. Vejamos e relembremos esta importante definição:
+
+<div class="definicoes" id ="9">
+  <h3 id="Números Primos">
+    <strong>DEFINIÇÃO</strong>
+  </h3>
+  <p>
+    Seja $p \in \mathbb{Z}$. Dizemos que $p$ é <strong>primo</strong> quando
+  </p>
+  <ul class="ul_centralizado" align="center">
+    <li>$p \neq 0$,</li>
+    <li>$p \neq 1$,</li>
+    <li>$p \neq -1$ e</li>
+    <li>$p$ possui somente divisores triviais $(1, -1, p, -p)$.</li>
+  </ul>
+</div>
+
+Por outro lado,
+
+<div class="definicoes" id ="10">
+  <h3 id="Números Compostos">
+    <strong></strong>
+  </h3>
+  <p> dado $p \in \mathbb{Z}$, dizemos que $p$ é <strong>composto</strong> quando</p>
+  <ul class="ul_centralizado" align="center">
+    <li>$p \neq 0$,</li>
+    <li>$p \neq 1$,</li>
+    <li>$p \neq -1$ e</li>
+    <li>$p$ possui ao menos um divisor não trivial, ou seja, não é primo.</li>
+  </ul>
+</div>
+
+Assim, têm-se como exemplos de primos os números $2$, $-5$, $13$ e $17$, e como exemplos de NÃO primos os números $10 = 2 \cdot 5$, e $81 = 3^4$.
+
+**Reflita:** Se $a, b \in \mathbb{Z}, a \neq 0 \lor b \neq 0, então $a$ e $b$ são primos entre si se, e somente se, $a$ e $b$ não possuem fatores primos em comum.
