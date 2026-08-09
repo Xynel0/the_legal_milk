@@ -317,7 +317,7 @@ As operações de adição e multiplicação (em $\mathbb{Z}$) satisfazem as seg
 
 ---
 
-<div class="proposições" id ="1">
+<div class="proposicoes" id ="1">
   <h3>
     <strong>Proposição</strong>
   </h3>
