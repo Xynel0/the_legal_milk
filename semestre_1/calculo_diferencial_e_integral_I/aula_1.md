@@ -330,3 +330,5 @@ As operações de adição e multiplicação (em $\mathbb{Z}$) satisfazem as seg
   </h3>
   <p>Demonstração: Se $n$ é par, então, <a href="#Número par">por definição</a>, existe $k \in \mathbb{Z}$ tal que $n = 2k$. assim, $n^2 = (2k)^2 = 4k^2 = 2 \cdot (2k^2)$. Sendo $k_1 = 2k^2$, tem-se $n^2 = 2k_1 \in \mathbb{Z}$. Portanto, $n^2$ também é par.</p>
 </div>
+
+> nota: mais a frente será melhor explicado o [conceito de proposição]()<!-- ADICIONAR LINK PARA A EXPLICAÇÃO-->. Por enquanto, é suficiente enxergar uma proposição como uma propriedade sobre algo, que precisa de prova para ser dada como verdade.
