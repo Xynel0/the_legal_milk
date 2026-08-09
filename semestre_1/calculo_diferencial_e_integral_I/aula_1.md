@@ -328,5 +328,5 @@ As operações de adição e multiplicação (em $\mathbb{Z}$) satisfazem as seg
   <h3 id="Seja $n \in \mathbb{Z}$. Se $n$ é par então $n^2$ é par.">
     <strong></strong>
   </h3>
-  <p>Demonstração: Se $n$ é par, então, <a href="Número par">por definição</a>, existe $k \in \mathbb{Z}$ tal que $n = 2k$. assim, $n^2 = (2k)^2 = 4k^2 = 2 \cdot (2k^2)$. Sendo $k_1 = 2k^2$, tem-se $n^2 = 2k_1 \in \mathbb{Z}$. Portanto, $n^2$ também é par.</p>
+  <p>Demonstração: Se $n$ é par, então, <a href="#Número par">por definição</a>, existe $k \in \mathbb{Z}$ tal que $n = 2k$. assim, $n^2 = (2k)^2 = 4k^2 = 2 \cdot (2k^2)$. Sendo $k_1 = 2k^2$, tem-se $n^2 = 2k_1 \in \mathbb{Z}$. Portanto, $n^2$ também é par.</p>
 </div>
