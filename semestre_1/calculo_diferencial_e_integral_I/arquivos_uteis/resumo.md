@@ -183,6 +183,17 @@
 
 ---
 
+<div class="teoremas" id="1">
+<h3 id="Teorema Fundamental da Aritmética">
+<strong>Teorema Fundamental da Aritmética</strong>
+</h3>
+<p>Se $n \in \mathbb{Z}^* , n \neq 1$ e $n \neq -1$, então existem únicos <strong>primos</strong>$p_1 , \ldots , p_k$, com $0 \textless p_1 \textless \ldots \textless p_k$ e existem únicos naturais não nulos $r_1 , \ldots , r_k$ tais que</p>
+<p align="center" class="p_centralizado">$n = p_{1}^{r_1} \cdot \ldots \cdot p_{k}^{r_k}$, se $n \textgreater 0$ e $n = -p_{1}^{r_1} \cdot \ldots \cdot p_{k}^{r_k}$ se $n \textless 0$.</p>
+<p>Em outras palavras, o Teorema Fundamental da aritmética afirma que a fatoração de cada inteiro como produto de primos é única, ou seja, não há duas fatorações em primos distintas para um mesmo inteiro composto. A fatoração aqui mencionada é a mesma sobre a qual costumeiramente fazem-se exercícios no ensino médio, onde tem-se, por exemplo $42 = 2^1 \cdot 3^1 \cdot 7^1$, sendo esta a única fatoração em primos de $42$.</p>
+</div>
+
+---
+
 <div class="provas" id="1">
 <h3 id="Seja n inteiro. Se n é par, n ao quadrado é par">
 <strong>Seja N Inteiro. Se N É Par, N Ao Quadrado É Par</strong>
