@@ -170,6 +170,19 @@
 
 ---
 
+<div class="proposicoes" id="5">
+<h3>
+<strong>Proposição</strong>
+</h3>
+<p>Seja $n \in \mathbb{Z}$. As seguintes afirmações são verdaderas:</p>
+<ul>
+<li>$n$ é par se, e somente se, $n^2$ é par.</li>
+<li>$n$ é ímpar se, e somente se, $n^2$ é ímpar.</li>
+</ul>
+</div>
+
+---
+
 <div class="provas" id="1">
 <h3 id="Seja n inteiro. Se n é par, n ao quadrado é par">
 <strong>Seja N Inteiro. Se N É Par, N Ao Quadrado É Par</strong>
