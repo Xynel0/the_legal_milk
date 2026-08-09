@@ -15,6 +15,7 @@ arquivo_saida = os.path.join(pasta_saida, "resumo.md")
 CLASSES = [
     ("definicoes", True),
     ("proposicoes", False),
+    ("teoremas", False),
     ("provas", True),
 ]
 # -----------------------------------------------------------------------------------
