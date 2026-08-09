@@ -360,3 +360,31 @@ As operações de adição e multiplicação (em $\mathbb{Z}$) satisfazem as seg
   </h3>
   <p>Seja $n \in \mathbb{Z}$. Se $n^2$ é par, então $n$ é par.</p>
 </div>
+
+---
+
+Assim, tem se a seguinte proposição:
+
+<div class="proposicoes" id="5">
+  <h3>
+    <strong>Proposição</strong>
+  </h3>
+  <p>Seja $n \in \mathbb{Z}$. As seguintes afirmações são verdaderas:</p>
+  <ul>
+    <li>$n$ é par se, e somente se, $n^2$ é par.</li>
+    <li>$n$ é ímpar se, e somente se, $n^2$ é ímpar.</li>
+  </ul>
+</div>
+
+---
+
+<div class="teoremas" id="1">
+  <h3 id="Teorema Fundamental da Aritmética">
+    <strong>Teorema Fundamental da Aritmética</strong>
+  </h3>
+  <p>Se $n \in \mathbb{Z}^* , n \neq 1$ e $n \neq -1$, então existem únicos <strong>primos</strong>$p_1 , \ldots , p_k$, com $0 \textless p_1 \textless \ldots \textless p_k$ e existem únicos naturais não nulos $r_1 , \ldots , r_k$ tais que</p>
+  <p class="p_centralizado" align="center">$n = p_{1}^{r_1} \cdot \ldots \cdot p_{k}^{r_k}$, se $n \textgreater 0$ e $n = -p_{1}^{r_1} \cdot \ldots \cdot p_{k}^{r_k}$ se $n \textless 0$.</p>
+  <p>Em outras palavras, o Teorema Fundamental da aritmética afirma que a fatoração de cada inteiro como produto de primos é única, ou seja, não há duas fatorações em primos distintas para um mesmo inteiro composto. A fatoração aqui mencionada é a mesma sobre a qual costumeiramente fazem-se exercícios no ensino médio, onde tem-se, por exemplo $42 = 2^1 \cdot 3^1 \cdot 7^1$, sendo esta a única fatoração em primos de $42$.</p>
+</div>
+
+> Um teorema é uma afirmação que pode ser provada como verdadeira, por meio de outras afirmações já demonstradas, como outros teoremas, juntamente com afirmações anteriormente aceitas. Atualmente, é mais comum deixar o termo "teorema" apenas para certas afirmações que podem ser provadas e de grande importância "matemática", o que torna a definição um tanto subjetiva. [Leia mais](https://pt.wikipedia.org/wiki/Teorema)
