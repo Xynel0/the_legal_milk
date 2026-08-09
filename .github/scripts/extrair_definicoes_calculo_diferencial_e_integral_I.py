@@ -106,7 +106,7 @@ for classe, aplicar_nome in CLASSES:
         html_da_div = item[1]
         arquivo_de_saida.write(html_da_div)
         arquivo_de_saida.write("\n\n")
-    arquivo_de_saida.write("---\n\n")
+        arquivo_de_saida.write("---\n\n")
 
 arquivo_de_saida.close()
 
