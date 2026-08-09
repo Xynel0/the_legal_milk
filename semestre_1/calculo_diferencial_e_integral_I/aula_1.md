@@ -328,7 +328,35 @@ As operações de adição e multiplicação (em $\mathbb{Z}$) satisfazem as seg
   <h3 id="Seja n inteiro. Se n é par, n ao quadrado é par">
     <strong></strong>
   </h3>
-  <p>Demonstração: Se $n$ é par, então, <a href="#Número par">por definição</a>, existe $k \in \mathbb{Z}$ tal que $n = 2k$. assim, $n^2 = (2k)^2 = 4k^2 = 2 \cdot (2k^2)$. Sendo $k_1 = 2k^2$, tem-se $n^2 = 2k_1 \in \mathbb{Z}$. Portanto, $n^2$ também é par.</p>
+  <p>Demonstração: Se $n$ é par, então, <a href="#Número par">por definição</a>, existe $k \in \mathbb{Z}$ tal que $n = 2k$. Assim, $n^2 = (2k)^2 = 4k^2 = 2 \cdot (2k^2)$. Sendo $k_1 = 2k^2$, tem-se $n^2 = 2k_1 \in \mathbb{Z}$. Portanto, $n^2$ também é par.</p>
+</div>
+<div class="proposicoes" id="2">
+  <h3>
+    <strong>Corolário</strong>
+  </h3>
+  <p>Seja $n \in \mathbb{Z}$. Se $n^2$ é ímpar, então $n$ é ímpar.</p>
 </div>
 
-> nota: mais a frente será melhor explicado o [conceito de proposição]()<!-- ADICIONAR LINK PARA A EXPLICAÇÃO-->. Por enquanto, é suficiente enxergar uma proposição como uma propriedade sobre algo, que precisa de prova para ser dada como verdade.
+> nota: mais a frente será melhor explicado o [conceito de proposição]()<!-- ADICIONAR LINK PARA A EXPLICAÇÃO-->. Por enquanto, é suficiente enxergar uma proposição como uma propriedade sobre algo, que precisa de prova para ser dada como verdade. Quanto ao corolário, basta que seja entendido como uma consequência direta ou óbvia daquilo que foi provado antes.
+
+---
+
+<div class="proposicoes" id ="3">
+  <h3>
+    <strong>Proposição</strong>
+  </h3>
+  <p>Seja $n \in \mathbb{Z}$. Se $n$ é ímpar então $n^2$ é ímpar.</p>
+  <a href="#Seja n inteiro. Se n é ímpar, n ao quadrado é ímpar">ver prova</a>
+</div>
+<div class="provas" id="2">
+  <h3 id="Seja n inteiro. Se n é ímpar, n ao quadrado é ímpar">
+    <strong></strong>
+  </h3>
+  <p>Demonstração: Se $n$ é ímpar, então, <a href="#Número ímpar">por definição</a>, existe $k \in \mathbb{Z}$ tal que $n = 2k + 1$. Assim, $n^2 = (2k + 1)^2 = 4k^2 + 4k + 1 = 2 \cdot (2k^2 + 2k) + 1$. Sendo $k_1 = 2k^2 + 2k$, tem-se $n^2 = 2k_1 + 1 \in \mathbb{Z}$. Portanto, $n^2$ também é ímpar.</p>
+</div>
+<div class="proposicoes" id="4">
+  <h3>
+    <strong>Corolário</strong>
+  </h3>
+  <p>Seja $n \in \mathbb{Z}$. Se $n^2$ é par, então $n$ é par.</p>
+</div>
