@@ -95,7 +95,8 @@ os.makedirs(pasta_saida, exist_ok=True)
 
 # Escreve o arquivo final seguindo exatamente a ordem declarada em CLASSES.
 # Primeiro escreve todas as divs da primeira classe da lista, depois todas
-# as divs da segunda classe, e assim por diante.
+# as divs da segunda classe, e assim por diante. Ao final de cada classe,
+# escreve um separador "---" para marcar visualmente a divisão entre seções.
 arquivo_de_saida = open(arquivo_saida, "w", encoding="utf-8")
 
 for classe, aplicar_nome in CLASSES:
@@ -105,6 +106,7 @@ for classe, aplicar_nome in CLASSES:
         html_da_div = item[1]
         arquivo_de_saida.write(html_da_div)
         arquivo_de_saida.write("\n\n")
+    arquivo_de_saida.write("---\n\n")
 
 arquivo_de_saida.close()
 
