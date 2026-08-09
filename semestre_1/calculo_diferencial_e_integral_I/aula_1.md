@@ -322,7 +322,7 @@ As operações de adição e multiplicação (em $\mathbb{Z}$) satisfazem as seg
     <strong>Proposição</strong>
   </h3>
   <p>Seja $n \in \mathbb{Z}$. Se $n$ é par então $n^2$ é par.</p>
-  <a href="Seja $n \in \mathbb{Z}$. Se $n$ é par então $n^2$ é par.">ver prova</a>
+  <a href="#Seja $n \in \mathbb{Z}$. Se $n$ é par então $n^2$ é par.">ver prova</a>
 </div>
 <div class="provas">
   <h3 id="Seja $n \in \mathbb{Z}$. Se $n$ é par então $n^2$ é par.">
