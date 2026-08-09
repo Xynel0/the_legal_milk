@@ -19,6 +19,8 @@
 </p>
 </div>
 
+---
+
 <div class="definicoes" id="2">
 <h3 id="Números inteiros">
 <strong>Números Inteiros</strong>
@@ -37,6 +39,8 @@
 </p>
 </div>
 
+---
+
 <div class="definicoes" id="3">
 <h3 id="Número par">
 <strong>Número Par</strong>
@@ -45,6 +49,8 @@
     Seja $n \in \mathbb{Z}$. Dizemos que <strong>$n$ é par</strong> quando existe algum número inteiro $k$ tal que $n=2k$. Ou seja, $n$ é par se houver algum inteiro que, multiplicado por $2$, resulte em $n$.
   </p>
 </div>
+
+---
 
 <div class="definicoes" id="4">
 <h3 id="Número ímpar">
@@ -55,6 +61,8 @@
   </p>
 </div>
 
+---
+
 <div class="definicoes" id="5">
 <h3 id="Multiplicidade">
 <strong>Multiplicidade</strong>
@@ -64,6 +72,8 @@
   </p>
 </div>
 
+---
+
 <div class="definicoes" id="6">
 <h3 id="Divisibilidade">
 <strong>Divisibilidade</strong>
@@ -72,6 +82,8 @@
   </p>
 </div>
 
+---
+
 <div class="definicoes" id="7">
 <h3 id="Máximo divisor comum (M.D.C.)">
 <strong>Máximo Divisor Comum (M.D.C.)</strong>
@@ -79,10 +91,14 @@
 <p>Sejam $a, b \in \mathbb{Z}$, com $a \neq 0$ OU $b \neq 0$. O <strong>Máximo Divisor Comum</strong> de $a$ e $b$ é o maior inteiro positivo que divide $a$ e que divide $b$, sendo denotado por $\mathrm{MDC}(a,b)$. Como o nome bem sugere, o MDC de dois números é o maior inteiro que é divisor comum, que consegue dividir esses dois números ao mesmo tempo.</p>
 </div>
 
+---
+
 <div class="definicoes" id="8">
 <h3 id="Primos entre si"><strong>Primos Entre Si</strong></h3>
 <p>Dizemos que $a$ e $b$ são <strong>primos entre si</strong> quando $\mathrm{MDC}(a, b) = 1$.</p>
 </div>
+
+---
 
 <div class="definicoes" id="9">
 <h3 id="Números Primos">
@@ -98,6 +114,8 @@
 <li>$p$ possui somente divisores triviais $(1, -1, p, -p)$.</li>
 </ul>
 </div>
+
+---
 
 <div class="definicoes" id="10">
 <h3 id="Números Compostos">
