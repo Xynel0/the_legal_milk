@@ -119,14 +119,14 @@
 <strong>Proposição</strong>
 </h3>
 <p>Seja $n \in \mathbb{Z}$. Se $n$ é par então $n^2$ é par.</p>
-<a href="#Seja \$n \in \mathbb{Z}\$. Se \$n\$ é par então \$n^2\$ é par.">ver prova</a>
+<a href="#Seja n inteiro. Se n é par, n ao quadrado é par">ver prova</a>
 </div>
 
 ---
 
 <div class="provas" id="1">
-<h3 id="Seja \$n \in \mathbb{Z}\$. Se \$n\$ é par então \$n^2\$ é par.">
-<strong>Seja \$N \In \Mathbb{Z}\$. Se \$N\$ É Par Então \$N^2\$ É Par.</strong>
+<h3 id="Seja n inteiro. Se n é par, n ao quadrado é par">
+<strong>Seja N Inteiro. Se N É Par, N Ao Quadrado É Par</strong>
 </h3>
 <p>Demonstração: Se $n$ é par, então, <a href="#Número par">por definição</a>, existe $k \in \mathbb{Z}$ tal que $n = 2k$. assim, $n^2 = (2k)^2 = 4k^2 = 2 \cdot (2k^2)$. Sendo $k_1 = 2k^2$, tem-se $n^2 = 2k_1 \in \mathbb{Z}$. Portanto, $n^2$ também é par.</p>
 </div>
