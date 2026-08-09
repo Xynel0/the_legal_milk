@@ -117,6 +117,6 @@
 <strong>Proposição</strong>
 </h3>
 <p>Seja $n \in \mathbb{Z}$. Se $n$ é par então $n^2$ é par.</p>
-<a href="Seja $n \in \mathbb{Z}$. Se $n$ é par então $n^2$ é par.">ver prova</a>
+<a href="#Seja $n \in \mathbb{Z}$. Se $n$ é par então $n^2$ é par.">ver prova</a>
 </div>
 
