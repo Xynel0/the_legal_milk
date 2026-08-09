@@ -77,8 +77,10 @@ As operações de adição e multiplicação (em $\mathbb{N}$) satisfazem as seg
 | **Associatividade** | $$(a+b)+c = a+(b+c)$$ e $$(a \cdot b) \cdot c = a \cdot (b \cdot c), \forall a, b, c \in \mathbb{N}$$ | $$(a+b)+c = a+(b+c)$$ e $$(a \cdot b) \cdot c = a \cdot (b \cdot c)$$, quaisquer que sejam $a$, $b$ e $c$ naturais |
 | **Comutatividade** | $$a + b = b + a$$ e $$a \cdot b = b \cdot a, \forall a, b \in \mathbb{N}$$ | $$a + b = b + a$$ e $$a \cdot b = b \cdot a$$, quaisquer que sejam $a$ e $b$ naturais |
 | Existência do **elemento neutro** | $$a+0 = a$$ e $$a \cdot 1 = a, \forall a \in \mathbb{N}$$ | $$a+0 = a$$ e $$a \cdot 1 = a$$, para todo $a$ natural |
-| **Distributividade** da multiplicação em relação à adição | $a \cdot (b+c) = a \cdot b + b \cdot c, \forall a, b, c \in \mathbb{N}$ | $a \cdot (b+c) = a \cdot b + b \cdot c$, para quaisquer $a$, $b$ e $c$ naturais |
+| **Distributividade** da multiplicação em relação à adição | $a \cdot (b+c) = a \cdot b + a \cdot c, \forall a, b, c \in \mathbb{N}$ | $a \cdot (b+c) = a \cdot b + a \cdot c$, para quaisquer $a$, $b$ e $c$ naturais |
 | **Integridade** da adição | $a, b \in \mathbb{N} \land a + b = 0 \implies a = 0 \land b = 0$ | se $a, b \in \mathbb{N}$ e $a + b = 0,$ então $a = 0$ e $b = 0$ |
+| **Integridade** da multiplicação | $a, b \in \mathbb{N} \land a \cdot b = 0 \implies a = 0 \lor b = 0$ | se $a, b \in \mathbb{N}$ e $a \cdot b = 0,$ então $a = 0$ ou $b = 0$ |
+
 > Nota: Para rever os significados dos sinais acima, e outros, [clique aqui](../arquivos_uteis_s1/simbolos_matematicos_e_logicos.md)
 
 #### Em outras palavras...
@@ -281,3 +283,50 @@ Por outro lado,
 Assim, têm-se como exemplos de primos os números $2$, $-5$, $13$ e $17$, e como exemplos de NÃO primos os números $10 = 2 \cdot 5$, e $81 = 3^4$.
 
 **Reflita:** Se $a, b \in \mathbb{Z}, a \neq 0 \lor b \neq 0$, então $a$ e $b$ são primos entre si se, e somente se, $a$ e $b$ não possuem fatores primos em comum.
+
+> Observação: $-2$ e $2$ são os únicos números primos e pares.
+
+As operações de adição e multiplicação (em $\mathbb{Z}$) satisfazem as seguintes propriedades:
+
+| Propriedade | O que diz | Significado |
+|-------------|-------------|-------------|
+| **Fechamento** | $$a+b, a \cdot b \in \mathbb{Z}, \forall a, b \in \mathbb{Z}$$ | Os números $a + b$ e $a \cdot b$ pertencem aos inteiros, quaisquer que sejam $a$ e $b$ inteiros |
+| **Associatividade** | $$(a+b)+c = a+(b+c)$$ e $$(a \cdot b) \cdot c = a \cdot (b \cdot c), \forall a, b, c \in \mathbb{Z}$$ | $$(a+b)+c = a+(b+c)$$ e $$(a \cdot b) \cdot c = a \cdot (b \cdot c)$$, quaisquer que sejam $a$, $b$ e $c$ inteiros |
+| **Comutatividade** | $$a + b = b + a$$ e $$a \cdot b = b \cdot a, \forall a, b \in \mathbb{Z}$$ | $$a + b = b + a$$ e $$a \cdot b = b \cdot a$$, quaisquer que sejam $a$ e $b$ inteiros |
+| Existência do **elemento neutro** | $$a+0 = a$$ e $$a \cdot 1 = a, \forall a \in \mathbb{Z}$$ | $$a+0 = a$$ e $$a \cdot 1 = a$$, para todo $a$ inteiro |
+| Existência do **simétrico aditivo** | $\forall a \in \mathbb{Z}, \exists b \in \mathbb{Z} \mid a + b = 0$ | para todo $a$ inteiro, há um $b$ inteiro tal que, a soma dos dois é 0. |
+| **Distributividade** da multiplicação em relação à adição | $a \cdot (b+c) = a \cdot b + a \cdot c, \forall a, b, c \in \mathbb{Z}$ | $a \cdot (b+c) = a \cdot b + a \cdot c$, para quaisquer $a$, $b$ e $c$ inteiros |
+| **Integridade** da multiplicação | $a, b \in \mathbb{Z} \land a \cdot b = 0 \implies a = 0 \lor b = 0$ | se $a, b \in \mathbb{Z}$ e $a \cdot b = 0,$ então $a = 0$ ou $b = 0$ |
+| **Cancelamento** na Adição | $\forall a, b, c \in \mathbb{Z}, a + c = b + c \implies a = b$ | Sendo $a$, $b$, e $c$ inteiros, se $a + c = b + c$, então $a = b$. |
+| **Cancelamento** na Multiplicação | $\forall a, b, c \in \mathbb{Z}, a \cdot c = b \cdot c \land c \neq 0 \implies a = b$ | Sendo $a$, $b$, e $c$ inteiros, se $a \cdot c = b \cdot c$ e $c \neq 0$, então $a = b$. |
+
+> Nota: Para rever os significados dos sinais acima, e outros, [clique aqui](../arquivos_uteis_s1/simbolos_matematicos_e_logicos.md)
+
+#### Em outras palavras...
+<ul>
+  <li><strong>Fechamento:</strong><br> A soma de dois inteiros resulta num inteiro, assim como o produto de dois inteiros resulta num inteiro</li>
+  <li><strong>Associatividade:</strong><br> A ordem em que são feitas varias somas não altera o resultado, assim como a ordem em que são feitas varias multiplicações não altera o resultado (não confundir com a ordem entre operações diferentes. Multiplicação segue tendo prioridade sobre a soma).</li>
+  <li><strong>Comutatividade:</strong><br> A ordem das parcelas não altera a soma, assim como a ordem dos fatores não altera o produto.</li>
+  <li><strong>Elemento neutro:</strong><br> Somar 0 não altera nada, assim como multiplicar por 1 também não altera nada.</li>
+  <li><strong>Simétrico aditivo:</strong> Para qualquer inteiro $a$, há outro inteiro que, ao ser somado com $a$, resulta em 0</li>
+  <li><strong>Distributividade:</strong><br> O produto de um número por uma soma pode ser escrito como a soma de cada parcela multiplicada individualmente pelo número (o famoso "chuveirinho"). </li>
+  <li><strong>Integridade da multiplicação:</strong><br> Se uma multiplicação de inteiros dá 0, ou um é 0 ou o outro é 0.</li>
+  <li><strong>Cancelamento na adição:</strong> Sendo $a$, $b$ e $c$ inteiros, se $a + c = b + c$, então $a = b$.</li>
+  <li><strong>Cancelamento na multiplicação:</strong> Sendo $a$, $b$ e $c$ inteiros, se $a \cdot c = b \cdot c$ e $c \neq 0$, então $a = b$.</li>
+</ul>
+
+---
+
+<div class="proposições" id ="1">
+  <h3>
+    <strong>Proposição</strong>
+  </h3>
+  <p>Seja $n \in \mathbb{Z}$. Se $n$ é par então $n^2$ é par.</p>
+  <a href="Seja $n \in \mathbb{Z}$. Se $n$ é par então $n^2$ é par.">ver prova</a>
+</div>
+<div class="provas">
+  <h3 id="Seja $n \in \mathbb{Z}$. Se $n$ é par então $n^2$ é par.">
+    <strong></strong>
+  </h3>
+  <p>Demonstração: Se $n$ é par, então, <a href="Número par">por definição</a>, existe $k \in \mathbb{Z}$ tal que $n = 2k$. assim, $n^2 = (2k)^2 = 4k^2 = 2 \cdot (2k^2)$. Sendo $k_1 = 2k^2$, tem-se $n^2 = 2k_1 \in \mathbb{Z}$. Portanto, $n^2$ também é par.</p>
+</div>
