@@ -18,5 +18,5 @@
 | $\overline{}$ | Negação, não | $\mathcal{P} =$ todo dia chove $\Rightarrow \overline{\mathcal{P}}$ |
 | $\therefore$ | Portanto, daí, assim,... | $x > 2 \therefore x > 1$ |
 | $\oplus$ | Porta lógica XOR, ou exclusivo | $A \oplus B$ |
-| $\odot | Porta lógica XNOR, ou exclusivo negado | $A \odot B$ |
+| $\odot$ | Porta lógica XNOR, ou exclusivo negado | $A \odot B$ |
 
