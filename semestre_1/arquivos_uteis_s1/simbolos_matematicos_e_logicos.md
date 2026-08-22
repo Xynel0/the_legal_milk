@@ -17,6 +17,6 @@
 | $\neg$ | Negação, não (alumas notações usam " ' " após o parêntese de fechamento) | $\neg (\forall x, y \in \mathbb{N}, x = y)$ |
 | $\overline{}$ | Negação, não | $\mathcal{P} =$ todo dia chove $\Rightarrow \overline{\mathcal{P}}$ |
 | $\therefore$ | Portanto, daí, assim,... | $x > 2 \therefore x > 1$ |
-| $\oplus$ | Porta lógica XOR, ou exclusivo | $A \oplus B$ |
-| $\odot$ | Porta lógica XNOR, ou exclusivo negado | $A \odot B$ |
+| $\oplus$ | Operação lógica XOR, ou exclusivo | $A \oplus B$ |
+| $\odot$ | Operação lógica XNOR, ou exclusivo negado | $A \odot B$ |
 
